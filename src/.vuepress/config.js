@@ -81,9 +81,9 @@ module.exports = {
               { text: 'React', link: '/zh/react/'},
               { text: '小程序', link: '/zh/miniapp/' },
               { text: 'Webpack', link: '/zh/webpack/'},
-              // { text: '悦读管理后台', link: '/zh/interface/Yuedu.md'},
-              // { text: 'BlackMarket', link: '/zh/interface/BlackMarket.md'},
-              // { text: 'TouTiao', link: '/zh/interface/TouTiao.md'}
+              { text: '悦读管理后台', link: '/zh/interface/Yuedu.md'},
+              { text: 'BlackMarket', link: '/zh/interface/BlackMarket.md'},
+              { text: 'TouTiao', link: '/zh/interface/TouTiao.md'}
             ]
           },
           // {
@@ -93,14 +93,14 @@ module.exports = {
           //     { text: 'Japanese', link: '/language/japanese' }
           //   ]
           // },
-          // {
-          //   text: '配置参考',
-          //   link: '/config/'
-          // },
-          // {
-          //   text: '默认主题配置',
-          //   link: '/default-theme-config/'
-          // }
+          {
+            text: '配置参考',
+            link: '/config/'
+          },
+          {
+            text: '默认主题配置',
+            link: '/default-theme-config/'
+          }
         ],
         sidebar: {
           '/guide/': genSidebarConfig('指南'),
